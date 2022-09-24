@@ -23,6 +23,7 @@ body {
     overflow-x: hidden;
     position: relative;
 }
+}
 
 body:not(.loaded) > *:not(.loading-overlay) {
     visibility: hidden;
@@ -2483,12 +2484,17 @@ body .header.header-white {
     color: #424242;
     letter-spacing: .01rem;
     margin-bottom: 1.5rem;
-    font-size: 1vw;
+    font-size: 1.7rem;
     
 }
 
 .product-title a {
     color: inherit;
+     font-family: "Maven Pro";
+    letter-spacing: .01rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.7rem;
+    
 }
 
 .price-box {
@@ -11676,7 +11682,8 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
 }
 
 .col-container {
-  display: flex;
+  display: grid;
+grid-auto-flow: column;
   width: 100%;
 }
 .col-table {
