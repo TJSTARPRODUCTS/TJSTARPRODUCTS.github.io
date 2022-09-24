@@ -2483,6 +2483,8 @@ body .header.header-white {
     color: #424242;
     letter-spacing: .01rem;
     margin-bottom: 1.5rem;
+    font-size: 1vw;
+    
 }
 
 .product-title a {
